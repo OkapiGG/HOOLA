@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Tutorial de Animaciones CSS</title> 
+    <link rel="stylesheet" href="css/global.css"> 
+</head>
+<body> 
+    <div class="container"> 
+        <h1>Animaciones CSS</h1> 
+        
+        <div class="animation-grid"> 
+            <div class="animation-card"> 
+                <h3>Rotación Continua</h3> 
+                <div class="rotate-box"></div> 
+                <p>Esta caja gira 360° continuamente usando transform: rotate()</p> 
+            </div>
+
+
+            <div class="animation-card">
+                <h3>Efecto Pulso</h3>
+                <div class="pulse-box"></div> 
+                <p>El círculo cambia de tamaño y opacidad usando transform: scale()</p>
+            </div>
+
+            
+            <div class="animation-card">
+                <h3>Movimiento Horizontal</h3>
+                <div class="slide-container"> 
+                    <div class="slide-box"></div> 
+                </div>
+                <p>La caja se desliza de izquierda a derecha usando translateX()</p>
+            </div>
+
+
+            <div class="animation-card">
+                <h3>Rebote con Rotación</h3>
+                <div class="bounce-box"></div> 
+                <p>Combina movimiento vertical y rotación con cubic-bezier personalizado</p>
+            </div>
+
+            <div class="animation-card">
+                <h3>Cambio de Color</h3>
+                <div class="color-box"></div> 
+                <p>La caja cambia entre diferentes colores de fondo continuamente</p>
+            </div>
+
+
+            <div class="animation-card">
+                <h3>Efecto Flotación</h3>
+                <div class="float-box"></div>
+                <p>Movimiento suave hacia arriba y abajo simulando flotación</p>
+            </div>
+
+        </div>
+
+
+        <div class="info-section"> 
+            <h2>¿Qué son las Animaciones CSS?</h2> 
+            <p>Las animaciones CSS permiten cambiar gradualmente las propiedades de los elementos HTML a lo largo del tiempo, creando efectos visuales dinámicos sin necesidad de JavaScript.</p>
+            
+            <h3>Propiedades Principales:</h3>
+            <ul> 
+                <li><strong>@keyframes:</strong> Define los puntos clave de la animación</li> 
+                <li><strong>animation-name:</strong> Nombre de la animación definida en @keyframes</li>
+                <li><strong>animation-duration:</strong> Duración total de la animación</li>
+                <li><strong>animation-timing-function:</strong> Velocidad y aceleración de la animación</li>
+                <li><strong>animation-iteration-count:</strong> Número de veces que se repite</li>
+                <li><strong>animation-direction:</strong> Dirección de la animación</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
