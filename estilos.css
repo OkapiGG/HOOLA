@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(219, 123, 89);
+    color: #333;
+    line-height: 1.4;
+    padding: 20px;
+}
+
+header{
+    background-color: rgba(110, 94, 54, 0.73);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+header h1{
+    font-size: 2rem;
+}
+
+nav a{
+    color: rgb(157, 212, 242);
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    margin-top: 20px;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(101, 199, 255);
+    text-decoration: underline;
+}
+
+img#photo{
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 9px 6px 20px rgba(0, 0, 0, 0.68);
+}
+
+ul, ol{
+    margin: 20px;
+    padding-left: 20px;
+}
+
+article, section, aside{
+    background-color: rgba(164, 149, 111, 0.73);
+    border-radius: 8px;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 11px rgba(0, 0, 0, 0.68);
+}
+
+input:focus,button:focus{
+    outline: 2px solid rgb(105, 105, 209);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+fieldset{
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+legend{
+    font-weight: bold;
+    color: black;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="emai"],
+input[type="tel"]{
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #333;
+    border-radius: 8px;
+}
+
+button, input[type="submit"]{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover,input[type="submit"]:hover{
+    background-color: white;
+    color: black;
+}
+
+footer{
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid white;
+}
+
+input:invalid{
+    border: 2px solid red;
+}
+
+input:valid{
+    border: 2px solid green;
+}
